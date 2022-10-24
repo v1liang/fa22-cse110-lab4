@@ -1,0 +1,2 @@
+1. The bug was that when adding the two inputs num1 and num2, they were strings, so the output was the combination of putting the two strings together instead of adding them. So '3' + '2' would be '32' instead of 5.
+2. I would fix it by converting num1 and num2 into Numbers when operating with '+' so it adds the two values as numbers instead of strings.
